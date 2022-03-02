@@ -26,7 +26,8 @@
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true //,
+  // "react/react-in-jsx-scope": "off",  eventualmente per poter importare React quando non viene poi letto nel component
   },
   "exclude": [
     "node_modules",
